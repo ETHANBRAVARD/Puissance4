@@ -1,0 +1,17 @@
+# Sorties de self-play (76 Mo de poids)
+nuit_selfplay/
+
+# Poids de modèles
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Config locale Claude Code
+.claude/settings.local.json
+
+.DS_Store
