@@ -1,6 +1,8 @@
 # Puissance 4 — trois IA comparées
 
-> *README temporaire, coécrit avec Claude.*
+*Un Puissance 4 avec trois types d'IA (alpha-bêta, algorithme génétique et AlphaZero), pour comprendre comment chacune fonctionne, ses atouts et ses faiblesses.*
+
+> **In English:** Connect Four with three AI players (alpha-beta, a genetic algorithm and AlphaZero) compared by Elo; the main finding is a negative result, explained step by step. Full write-up in French below.
 
 Un Puissance 4 sur **bitboards**, servant de banc d'essai à trois approches d'IA
 partageant la même interface `choisir_coup(plateau)` : recherche classique, évolution
@@ -273,3 +275,7 @@ Non versionné : `nuit_selfplay/` (poids entraînés).
 
 Le choix de l'IA se fait en modifiant l'appel `p.choisir_coup("minmax", p)` dans la
 boucle principale. Un argument de ligne de commande serait plus propre.
+
+---
+
+*Ce README a été rédigé avec l'aide de Claude, à partir de mes notes et de mes résultats. Tout le code est de moi ; le rôle de l'assistant est précisé plus haut.*
